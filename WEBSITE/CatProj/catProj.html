@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <nav class="nav-bar">
+                    <div id="logo">
+                        <img id="logo_img" src= "img/cat_and_sparrow_logo2.jpg">  
+                    </div>
+                    <div id="nav_box">
+                        <ul id=navigation-cl>
+                            
+                            <li class="nav-item">Home</li>
+                            <li class="nav-item">Link1</li>
+                            <li class="nav-item">Link2</li>
+                        </ul>
+                    </div>
+                </nav>
+            </nav>
+            
+        </header>
+
+        <div id= "controls">
+            <div class="pluMinus"> <h4>Warps Threads :  </h4>
+                <div id="updatedNumber"> 3 </div>
+                <button id="plusOneButton" type="button">+1</button>
+                <button id="minusOneButton" type="button">-1</button>
+                
+            </div>
+            <div class="pluMinus"> <h4>Weft Threads : </h4>
+                <div id="nRows"> 3 </div>
+                <button id="plusOneButtonR" type="button">+1</button>
+                <button id="minusOneButtonR" type="button">-1</button>
+                
+            </div>
+            
+            <div id="listColours">
+                <div class="colours">
+                    
+                    <input type="color" class="colour" id="colorWell" name="favcolor" value="#ff0000">
+                    <button id="bSelect"> Select</button>
+                    <div id="hexcol1"> &nbsp;</div>
+                </div>
+                    
+                <div class="colours">
+                    
+                    <input type="color" class="colour" id="colorWell1" name="favcolor" value="#ff0000">
+                    <button id="bSelect1">Select</button>
+                    <div id="hexcol2"> &nbsp;</div>
+                </div>
+                <div class="colours">
+                    
+                    <input type="color" class="colour" id="colorWell2" name="favcolor" value="#ff0000">
+                    <button id="bSelect2">Select</button>
+                    <div id="hexcol3"> &nbsp;</div>
+                </div>
+                <div class="colours">
+                    
+                    <input type="color" class="colour" id="colorWell3" name="favcolor" value="#ff0000">
+                    <button id="bSelect3">Select</button>
+                    <div id="hexcol4"> &nbsp;</div>
+                </div>
+                <div class="colours">
+                    
+                    <input type="color" class="colour" id="colorWell4" name="favcolor" value="#ff0000">
+                    <button id="bSelect4"> Select</button>
+                    <div id="hexcol5"> &nbsp;</div>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="blockbox" id="table" >
+            <div id="squares">
+                <div class="square" id="0"></div>
+                <div class="square" id="1"></div>
+                <div class="square" id="2"></div>
+            </div>
+            
+            <div class="pgPreviewRow" id="r0">
+                <div class="pgPreview" id="r0c0"><svg><polygon class= "poly" points="0,15 10,0 20,15 10,30"/></svg></div>
+                <div class="pgPreview" id="r0c2"><svg><polygon class= "poly" points="0,15 10,0 20,15 10,30"/></svg></div>
+                
+            </div>
+            <div class="pgPreviewRow" id="r1"> 
+                <div class="pgPreviewBlank"><svg><polygon class= "blankPoly" points="0,0 10,15 0,30"/></svg></div>
+                <div class="pgPreview" id="r1c1"><svg><polygon class= "poly" points="0,15 10,0 20,15 10,30"/></svg></div>
+                
+            </div>
+            <div class="pgPreviewRow" id="r2">
+                <div class="pgPreview" id="r2c0"><svg><polygon class= "poly" points="0,15 10,0 20,15 10,30"/></svg></div>
+                <div class="pgPreview" id="r2c2"><svg><polygon class= "poly" points="0,15 10,0 20,15 10,30"/></svg></div>
+                
+            </div>
+        </div>
+    </body>
+    <script src="code.js"></script>
+
+    
+</html>
