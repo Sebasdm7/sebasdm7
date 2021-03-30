@@ -18,10 +18,10 @@ body{
 #navigationBar{
     grid-column: 1/9;
     grid-row: 1/2;
-
     flex-direction: row;
     justify-content: flex-end;
     background-color: #3d518c;
+    display: flex;
 }
 
 
