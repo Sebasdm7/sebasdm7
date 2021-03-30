@@ -16,8 +16,10 @@ body{
 
 
 #navigationBar{
-    grid-column: 1, 10;
-    grid-row: 1, 2;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
     flex-direction: row;
     justify-content: flex-end;
