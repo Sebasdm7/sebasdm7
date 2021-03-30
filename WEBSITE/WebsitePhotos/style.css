@@ -1,3 +1,30 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(27, 1fr);
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flexbox;
+}
+
+
+#navigationBar{
+    grid-column: 1, -1;
+    grid-row: 1, 2;
+
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #3d518c;
+}
+
+
+nav.container li {
+    color: white;
+}
