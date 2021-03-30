@@ -14,9 +14,8 @@ header {
     grid-column: 1/10;
     grid-row: 1/2;
 }
-
 #navigationBarList{
-    
+    height: 100%;
     flex-direction: row;
     justify-content: flex-end;
     background-color: #3d518c;
