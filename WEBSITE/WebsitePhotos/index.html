@@ -1,16 +1,98 @@
 <!DOCTYPE html>
-    <head>
-        <link href="style.css" rel="stylesheet" >
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class='container' id='navigationBar'>
-                <ul  id='navigationBarList'>
-                    <li> First item </li>
-                    <li> Second item </li>
-                </ul>
-            </nav>
-        </header>
-    </body>
+    <html>
+        <head>
+            <link href="style.css" rel="stylesheet" >
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <header>
+                <nav class='container' id='navigationBar'>
+                    <ul  id='navigationBarList'>
+                        <li> First item &nbsp;|</li>
+                        <li> Second item </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class = "rowImages">
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20161102-P1040350.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20170126-P1000299.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20170722-_1100175.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20170722-_1100265.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20170805-_1100655.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20170828-P1100756.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20171119-_1110070-2.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20171119-_1110112.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20171119-_1110143.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20171219-_1110676.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20180117-_1120814.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20180117-_1120824.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20180117-_1120864.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20180118-_1130419.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20180119-_1130670.jpg'>
+
+                </div>
+                <div class = 'rowImage'>
+                    <img class = 'smallImage' onclick= "myfunc(this)" src='img/20180720-P1030318.jpg'>
+
+                </div>
+
+                
+
+            </div>
+         
+            <!-- The Modal-->
+            <div id= 'myModal' class='modal'>
+            
+                <span onclick="this.parentElement.style.display='none'" class='close'> &times;</span>
+                <img class='modalContent' id='img01'/>
+                <div id='caption'></div>
+
+            </div>
+
+        </body>
+        <script src='code.js'></script>
+    </html>
